@@ -1,0 +1,303 @@
+
+<style>
+body {
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #333333;
+background: #c0a154 url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pla_camo.svg/1200px-Pla_camo.svg.png>) repeat scroll top left;
+}
+html body .content-outer {
+min-width: 0;
+max-width: 100%;
+width: 100%;
+}
+.content-outer {
+font-size: 92%;
+}
+a:link {
+text-decoration:none;
+color: #cc3300;
+}
+a:visited {
+text-decoration:none;
+color: #993322;
+}
+a:hover {
+text-decoration:underline;
+color: #ff3300;
+}
+.body-fauxcolumns .cap-top {
+margin-top: 30px;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/watermark/body_overlay_birds.png) no-repeat scroll top right;
+height: 121px;
+}
+.content-inner {
+padding: 0;
+}
+.tabs-inner .section {
+margin: 0 20px;
+}
+.tabs-inner .PageList, .tabs-inner .LinkList, .tabs-inner .Labels {
+margin-left: -11px;
+margin-right: -11px;
+background-color: transparent;
+border-top: 0 solid #ffffff;
+border-bottom: 0 solid #ffffff;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+box-shadow: 0 0 0 rgba(0, 0, 0, .3);
+}
+.tabs-inner .PageList .widget-content,
+.tabs-inner .LinkList .widget-content,
+.tabs-inner .Labels .widget-content {
+margin: -3px -11px;
+background: transparent none  no-repeat scroll right;
+}
+.tabs-inner .widget ul {
+padding: 2px 25px;
+max-height: 34px;
+background: transparent none no-repeat scroll left;
+}
+.tabs-inner .widget li {
+border: none;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .25em 1em;
+font: normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #cc3300;
+border-right: 1px solid #c0a154;
+}
+.tabs-inner .widget li:first-child a {
+border-left: 1px solid #c0a154;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+}
+h2 {
+font: normal normal 20px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+color: #000000;
+margin: 0 0 .5em;
+}
+h2.date-header {
+font: normal normal 16px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #997755;
+}
+.main-inner .column-center-inner,
+.main-inner .column-left-inner,
+.main-inner .column-right-inner {
+padding: 0 5px;
+}
+.main-outer {
+margin-top: 0;
+background: transparent none no-repeat scroll top left;
+}
+.main-inner {
+padding-top: 30px;
+}
+.main-cap-top {
+position: relative;
+}
+.main-cap-top .cap-right {
+position: absolute;
+height: 0;
+width: 100%;
+bottom: 0;
+background: transparent none repeat-x scroll bottom center;
+}
+.main-cap-top .cap-left {
+position: absolute;
+height: 245px;
+width: 280px;
+right: 0;
+bottom: 0;
+background: transparent none no-repeat scroll bottom left;
+}
+/* Posts
+----------------------------------------------- */
+.post-outer {
+padding: 15px 20px;
+margin: 0 0 25px;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/watermark/post_background_birds.png) repeat scroll top left;
+_background-image: none;
+border: dotted 1px #ccbb99;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-goog-ms-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+h3.post-title {
+font: normal normal 30px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+margin: 0;
+}
+.post-body {
+font-size: 105%;
+line-height: 1.5;
+position: relative;
+}
+.post-header {
+margin: 0 0 1em;
+color: #997755;
+}
+.post-footer {
+margin: 10px 0 0;
+padding: 10px 0 0;
+color: #997755;
+border-top: dashed 1px #777777;
+}
+#blog-pager {
+font-size: 140%
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: dashed 1px #777777;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+
+.footer-outer {
+color:#ccbb99;
+background: #330000 url(https://resources.blogblog.com/blogblog/data/1kt/watermark/body_background_navigator.png) repeat scroll top left;
+}
+.footer-outer a {
+color: #ff7755;
+}
+.footer-outer a:visited {
+color: #dd5533;
+}
+.footer-outer a:hover {
+color: #ff9977;
+}
+.footer-outer .widget h2 {
+color: #eeddbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: 100% auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+html .mobile .mobile-date-outer {
+border-bottom: none;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/watermark/post_background_birds.png) repeat scroll top left;
+_background-image: none;
+margin-bottom: 10px;
+}
+.mobile .main-inner .date-outer {
+padding: 0;
+}
+.mobile .main-inner .date-header {
+margin: 10px;
+}
+.mobile .main-cap-top {
+z-index: -1;
+}
+.mobile .content-outer {
+font-size: 100%;
+}
+.mobile .post-outer {
+padding: 10px;
+}
+.mobile .main-cap-top .cap-left {
+background: transparent none no-repeat scroll bottom left;
+}
+.mobile .body-fauxcolumns .cap-top {
+margin: 0;
+}
+.mobile-link-button {
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/watermark/post_background_birds.png) repeat scroll top left;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #cc3300;
+}
+.mobile-index-date .date-header {
+color: #997755;
+}
+.mobile-index-contents {
+color: #333333;
+}
+.mobile .tabs-inner .section {
+margin: 0;
+}
+.mobile .tabs-inner .PageList {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .tabs-inner .PageList .widget-content {
+margin: 0;
+color: #000000;
+background: transparent url(https://resources.blogblog.com/blogblog/data/1kt/watermark/post_background_birds.png) repeat scroll top left;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #c0a154;
+}
+</style>
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 1080px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1080px;
+max-width: 1080px;
+_width: 1080px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+body#layout div.add_widget {
+padding: 8px;
+}
+body#layout div.add_widget a {
+margin-left: 32px;
+}
+
+
+--></style>
